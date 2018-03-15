@@ -35,7 +35,7 @@ from pprint import pprint
 api_instance = esp_sdk.CustomComplianceControlsApi()
 custom_compliance_control_id = 56 # int | The ID of the Custom Compliance Control this custom signature belongs to
 custom_signature_id = 56 # int | The ID of the custom signature that belongs to this custom control
-include = 'include_example' # str | Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information. (optional)
+include = 'include_example' # str | Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information. (optional)
 
 try: 
     # Add a Custom Signature to a Custom Compliance Control
@@ -51,7 +51,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **custom_compliance_control_id** | **int**| The ID of the Custom Compliance Control this custom signature belongs to | 
  **custom_signature_id** | **int**| The ID of the custom signature that belongs to this custom control | 
- **include** | **str**| Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information. | [optional] 
+ **include** | **str**| Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information. | [optional] 
 
 ### Return type
 
@@ -87,7 +87,7 @@ from pprint import pprint
 api_instance = esp_sdk.CustomComplianceControlsApi()
 custom_compliance_control_id = 56 # int | The ID of the Custom Compliance Control this signature belongs to
 signature_id = 56 # int | The ID of the signature that belongs to this custom control
-include = 'include_example' # str | Related objects that can be included in the response:  service See Including Objects for more information. (optional)
+include = 'include_example' # str | Related objects that can be included in the response:  service, suppressions See Including Objects for more information. (optional)
 
 try: 
     # Add a Signature to a Custom Compliance Control
@@ -103,7 +103,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **custom_compliance_control_id** | **int**| The ID of the Custom Compliance Control this signature belongs to | 
  **signature_id** | **int**| The ID of the signature that belongs to this custom control | 
- **include** | **str**| Related objects that can be included in the response:  service See Including Objects for more information. | [optional] 
+ **include** | **str**| Related objects that can be included in the response:  service, suppressions See Including Objects for more information. | [optional] 
 
 ### Return type
 
@@ -249,7 +249,7 @@ from pprint import pprint
 api_instance = esp_sdk.CustomComplianceControlsApi()
 custom_compliance_control_id = 56 # int | The ID of the Custom Compliance Control this custom signature belongs to
 page = '{:number=>1,+:size=>20}' # str | Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page (optional) (default to {:number=>1,+:size=>20})
-include = 'include_example' # str | Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information. (optional)
+include = 'include_example' # str | Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information. (optional)
 
 try: 
     # Get a list of Custom Signatures for a Custom Compliance Control
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **custom_compliance_control_id** | **int**| The ID of the Custom Compliance Control this custom signature belongs to | 
  **page** | **str**| Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page | [optional] [default to {:number&#x3D;&gt;1,+:size&#x3D;&gt;20}]
- **include** | **str**| Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information. | [optional] 
+ **include** | **str**| Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information. | [optional] 
 
 ### Return type
 
@@ -301,7 +301,7 @@ from pprint import pprint
 api_instance = esp_sdk.CustomComplianceControlsApi()
 custom_compliance_control_id = 56 # int | The ID of the Custom Compliance Control this signature belongs to
 page = '{:number=>1,+:size=>20}' # str | Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page (optional) (default to {:number=>1,+:size=>20})
-include = 'include_example' # str | Related objects that can be included in the response:  service See Including Objects for more information. (optional)
+include = 'include_example' # str | Related objects that can be included in the response:  service, suppressions See Including Objects for more information. (optional)
 
 try: 
     # Get a list of Signatures for a Custom Compliance Control
@@ -317,7 +317,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **custom_compliance_control_id** | **int**| The ID of the Custom Compliance Control this signature belongs to | 
  **page** | **str**| Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page | [optional] [default to {:number&#x3D;&gt;1,+:size&#x3D;&gt;20}]
- **include** | **str**| Related objects that can be included in the response:  service See Including Objects for more information. | [optional] 
+ **include** | **str**| Related objects that can be included in the response:  service, suppressions See Including Objects for more information. | [optional] 
 
 ### Return type
 

@@ -19,6 +19,8 @@ Name | Type | Description | Notes
 **external_account_ids** | **list[int]** | Associated External Accounts IDs | [optional] 
 **definitions** | [**list[CustomSignatureDefinition]**](CustomSignatureDefinition.md) | Associated Definitions | [optional] 
 **definition_ids** | **list[int]** | Associated Definitions IDs | [optional] 
+**suppressions** | [**list[Suppression]**](Suppression.md) | Associated Suppressions | [optional] 
+**suppression_ids** | **list[int]** | Associated Suppressions IDs | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

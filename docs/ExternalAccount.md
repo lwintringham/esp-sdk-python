@@ -14,6 +14,8 @@ Name | Type | Description | Notes
 **scan_interval_ids** | **list[int]** | Associated Scan Intervals IDs | [optional] 
 **disabled_signatures** | [**list[Signature]**](Signature.md) | Associated Disabled Signatures | [optional] 
 **disabled_signature_ids** | **list[int]** | Associated Disabled Signatures IDs | [optional] 
+**suppressions** | [**list[Suppression]**](Suppression.md) | Associated Suppressions | [optional] 
+**suppression_ids** | **list[int]** | Associated Suppressions IDs | [optional] 
 **azure_group** | [**AzureGroup**](AzureGroup.md) | Associated Azure Group | [optional] 
 **azure_group_id** | **int** | Associated Azure Group ID | [optional] 
 **credentials** | [**ExternalAccountAmazonIAM**](ExternalAccountAmazonIAM.md) | Associated Credentials | [optional] 

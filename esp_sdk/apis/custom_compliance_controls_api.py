@@ -56,7 +56,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this custom signature belongs to (required)
         :param int custom_signature_id: The ID of the custom signature that belongs to this custom control (required)
-        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information.
         :return: CustomSignature
                  If the method is called asynchronously,
                  returns the request thread.
@@ -84,7 +84,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this custom signature belongs to (required)
         :param int custom_signature_id: The ID of the custom signature that belongs to this custom control (required)
-        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information.
         :return: CustomSignature
                  If the method is called asynchronously,
                  returns the request thread.
@@ -174,7 +174,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this signature belongs to (required)
         :param int signature_id: The ID of the signature that belongs to this custom control (required)
-        :param str include: Related objects that can be included in the response:  service See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  service, suppressions See Including Objects for more information.
         :return: Signature
                  If the method is called asynchronously,
                  returns the request thread.
@@ -202,7 +202,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this signature belongs to (required)
         :param int signature_id: The ID of the signature that belongs to this custom control (required)
-        :param str include: Related objects that can be included in the response:  service See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  service, suppressions See Including Objects for more information.
         :return: Signature
                  If the method is called asynchronously,
                  returns the request thread.
@@ -542,7 +542,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this custom signature belongs to (required)
         :param str page: Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page
-        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information.
         :return: PaginatedCollection
                  If the method is called asynchronously,
                  returns the request thread.
@@ -570,7 +570,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this custom signature belongs to (required)
         :param str page: Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page
-        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  organization, teams, external_accounts, definitions, suppressions See Including Objects for more information.
         :return: PaginatedCollection
                  If the method is called asynchronously,
                  returns the request thread.
@@ -657,7 +657,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this signature belongs to (required)
         :param str page: Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page
-        :param str include: Related objects that can be included in the response:  service See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  service, suppressions See Including Objects for more information.
         :return: PaginatedCollection
                  If the method is called asynchronously,
                  returns the request thread.
@@ -685,7 +685,7 @@ class CustomComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int custom_compliance_control_id: The ID of the Custom Compliance Control this signature belongs to (required)
         :param str page: Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page
-        :param str include: Related objects that can be included in the response:  service See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  service, suppressions See Including Objects for more information.
         :return: PaginatedCollection
                  If the method is called asynchronously,
                  returns the request thread.

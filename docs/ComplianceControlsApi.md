@@ -80,7 +80,7 @@ from pprint import pprint
 api_instance = esp_sdk.ComplianceControlsApi()
 compliance_control_id = 56 # int | The ID of the Compliance Control this signature belongs to
 page = '{:number=>1,+:size=>20}' # str | Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page (optional) (default to {:number=>1,+:size=>20})
-include = 'include_example' # str | Related objects that can be included in the response:  service See Including Objects for more information. (optional)
+include = 'include_example' # str | Related objects that can be included in the response:  service, suppressions See Including Objects for more information. (optional)
 
 try: 
     # Get a list of Signatures for a Compliance Control
@@ -96,7 +96,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **compliance_control_id** | **int**| The ID of the Compliance Control this signature belongs to | 
  **page** | **str**| Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page | [optional] [default to {:number&#x3D;&gt;1,+:size&#x3D;&gt;20}]
- **include** | **str**| Related objects that can be included in the response:  service See Including Objects for more information. | [optional] 
+ **include** | **str**| Related objects that can be included in the response:  service, suppressions See Including Objects for more information. | [optional] 
 
 ### Return type
 

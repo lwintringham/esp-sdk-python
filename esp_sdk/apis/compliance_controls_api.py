@@ -168,7 +168,7 @@ class ComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int compliance_control_id: The ID of the Compliance Control this signature belongs to (required)
         :param str page: Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page
-        :param str include: Related objects that can be included in the response:  service See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  service, suppressions See Including Objects for more information.
         :return: PaginatedCollection
                  If the method is called asynchronously,
                  returns the request thread.
@@ -196,7 +196,7 @@ class ComplianceControlsApi(object):
             for asynchronous request. (optional)
         :param int compliance_control_id: The ID of the Compliance Control this signature belongs to (required)
         :param str page: Page Number and Page Size.  number is the page number of the collection to return, size is the number of items to return per page
-        :param str include: Related objects that can be included in the response:  service See Including Objects for more information.
+        :param str include: Related objects that can be included in the response:  service, suppressions See Including Objects for more information.
         :return: PaginatedCollection
                  If the method is called asynchronously,
                  returns the request thread.
